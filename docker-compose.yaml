@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  jupyter:
+    build: .
+    image: mlops_jupyter            # Name of the image
+    container_name: mlops_jupyter   # Name of the running container
+    ports:
+      - "8888:8888"
+    volumes:
+      - /Users/ishraque/Desktop/Git Repos/Learnings/mlops_with_poridhi/jupyter_vol:/home/jovyan/work
+    environment:
+      - JUPYTER_TOKEN=securetoken
+    restart: unless-stopped
