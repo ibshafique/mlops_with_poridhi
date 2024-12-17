@@ -1,3 +1,5 @@
+## Syllabus
+
 # Module 1: Introduction of MLOps
 
 ☛ What is MLOps?
