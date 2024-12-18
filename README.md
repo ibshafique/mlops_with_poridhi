@@ -18,8 +18,9 @@ HOST_VOLUME=<path_of_your_repository>/jupyter_vol
 
 4. Create the jupyter notebook container using this command:
 ```
-docker-compose up --build -d
+docker-compose -f jupyter_docker_setup/docker-compose.yaml up --build -d
 ```
+
 
 ## Syllabus
 
