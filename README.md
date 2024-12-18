@@ -2,6 +2,8 @@
 - [Setting Up Docker Jupyter Notebook](#setup_docker_jupyter)
 - [Syllabus](#syllabus)
 
+---
+
 ## Setting Up Docker Jupyter Notebook
 
 1. Create a folder in the root directory:
@@ -21,6 +23,12 @@ HOST_VOLUME=<path_of_your_repository>/jupyter_vol
 docker-compose -f jupyter_docker_setup/docker-compose.yaml up --build -d
 ```
 
+5. To destroy the jupyter notebook container, use this command:
+```
+docker-compose -f jupyter_docker_setup/docker-compose.yaml down -rmi all
+```
+
+---
 
 ## Syllabus
 
