@@ -8,7 +8,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - /Users/ishraque/Desktop/Git Repos/Learnings/mlops_with_poridhi/jupyter_vol:/home/jovyan/work
+      - ${HOST_VOLUME}:/home/jovyan/work
     environment:
-      - JUPYTER_TOKEN=securetoken
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN}
     restart: unless-stopped
