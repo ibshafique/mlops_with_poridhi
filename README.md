@@ -1,5 +1,6 @@
 ## Table of Contents
 - [Setting Up Docker Jupyter Notebook](#setup_docker_jupyter)
+- [Prerequisite Projects](#prerequisite_projects)
 - [Syllabus](#syllabus)
 
 ---
@@ -27,6 +28,10 @@ docker-compose -f jupyter_docker_setup/docker-compose.yaml up --build -d
 ```
 docker-compose -f jupyter_docker_setup/docker-compose.yaml down -rmi all
 ```
+
+---
+
+## Prerequisite Projects
 
 ---
 
