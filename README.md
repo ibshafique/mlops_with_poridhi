@@ -1,3 +1,26 @@
+## Table of Contents
+- [Setting Up Docker Jupyter Notebook](#setup_docker_jupyter)
+- [Syllabus](#syllabus)
+
+## Setting Up Docker Jupyter Notebook
+
+1. Create a folder in the root directory:
+```
+mkdir jupyter_vold
+```
+2. In the directory ```jupyter_docker_setup``` create a file named ```.env```.
+
+3. Put the following content in the ```.env``` file:
+```
+JUPYTER_TOKEN=<your_secret_token>
+HOST_VOLUME=<path_of_your_repository>/jupyter_vol
+```
+
+4. Create the jupyter notebook container using this command:
+```
+docker-compose up --build -d
+```
+
 ## Syllabus
 
 <details>
