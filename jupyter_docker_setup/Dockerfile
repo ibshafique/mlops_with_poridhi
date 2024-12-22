@@ -1,5 +1,5 @@
 # Base image for Jupyter Notebook
-FROM jupyter/base-notebook:python-3.9.6
+FROM jupyter/base-notebook:x86_64-python-3.11.6  
 
 # Set environment variables
 ENV JUPYTER_TOKEN=securetoken
