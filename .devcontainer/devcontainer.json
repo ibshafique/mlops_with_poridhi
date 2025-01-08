@@ -1,0 +1,23 @@
+{
+    "name": "Data Science Dev Container",
+    "dockerFile": "Dockerfile",
+    "context": ".",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+          "ms-python.python",
+          "ms-toolsai.jupyter",
+          "ms-toolsai.jupyter-keymap",
+          "ms-toolsai.jupyter-renderers"
+        ]
+      }
+    },
+    "postCreateCommand": "pip install -r /workspace/requirements.txt",
+    "forwardPorts": [8888],
+    "remoteUser": "datascientist",
+    "workspaceFolder": "/workspace"
+  }
