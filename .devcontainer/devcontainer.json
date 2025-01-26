@@ -19,5 +19,5 @@
     "postCreateCommand": "pip install -r /workspace/requirements.txt",
     "forwardPorts": [8888],
     "remoteUser": "datascientist",
-    "workspaceFolder": "/workspace",
+    "workspaceFolder": "/workspace"
   }
