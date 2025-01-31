@@ -27,10 +27,8 @@ The dataset used for this project contains information about various cars and th
 ## Installation
 To get started with this project, clone the repository and install the required dependencies:
 
-```bash
-git clone https://github.com/yourusername/Car_Price.git
-cd Car_Price
-pip install -r requirements.txt
+```
+
 ```
 
 ## Usage
