@@ -1,6 +1,7 @@
 # Car Price Prediction
 
 This repository contains a project for predicting car prices using machine learning techniques.
+This repository also has a python app containerized using Docker.
 
 ## Table of Contents
 - [Introduction](#introduction)
