@@ -9,7 +9,7 @@ COPY requirements.txt .
 COPY car_price_model.pkl .
 COPY price_calc_app.py .
 
-# Install dependencies
+## Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the port that Streamlit runs on
